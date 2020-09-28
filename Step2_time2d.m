@@ -54,8 +54,6 @@ for ixs = 1:nShotsAndRecs
 end
 
 filenameTravelTime = [travelTimeFileDir, '/travelTime.mat'];
-if ~exist(filenameTravelTime, 'file')
-    save(filenameTravelTime, 'travelTime', '-v7.3')
-end
+save(filenameTravelTime, 'travelTime', '-v7.3')
 
 
