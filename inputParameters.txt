@@ -1,0 +1,10 @@
+nx  100    
+nz  100
+gridSize  10   
+f   30 
+shotWatchInterval 25
+shotInterval 1
+shotGatherFileDir   0   shotGather
+travelTimeFileDir   0   travelTime
+Fs_z  6
+Fs_x  6
